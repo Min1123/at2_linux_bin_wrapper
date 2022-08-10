@@ -1,0 +1,10 @@
+QEMU_USER="qemu-i386-static"
+#QEMU_USER="qemu-i386"
+DEPENDENCIES="git make aria2c padsp ${QEMU_USER}"
+BUILDROOT_REPO="git://git.buildroot.net/buildroot"
+BUILDROOT_VERSION="2022.05.1"
+AT2_FILE="adtrack-2.4.24-linux-bin-debian-stretch-x86.tar.gz"
+AT2_URL="http://www.adlibtracker.net/files/"
+AT2_AO_URL="https://web.archive.org/web/20210219234925/http://www.adlibtracker.net/files/"
+CLEAN="adtrack2 adtrack2_hq1.sh adtrack2.ini adtrack2.png br modules revision.txt adtrack-2.4.24-linux-bin-debian-stretch-x86.tar.gz adtrack2_hq2.sh adtrack2.mht buildroot instr readme-sdl.txt"
+
